@@ -1,0 +1,233 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*navbar {
+   margin: 0;
+   padding: 0;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+.logo {
+   width: 20%;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+.logo img {
+   width: 50%;
+   border: 2px solid black;
+   border-radius: 50%;
+}
+
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+  
+}
+
+.nav-list {
+   width: 70%;
+   /* background-color: black;   */
+   display: flex;
+   align-items: center;
+}
+
+.nav-list li {
+   list-style: none;
+   padding: 27px 36px;
+}
+
+.nav-list li a {
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   font-family: 'Ubuntu', sans-serif;;
+
+}
+
+.nav-list li a:hover {
+   color: grey;
+}
+
+.rightnav {
+   width: 30%;
+   /* background-color: blue; */
+   text-align: right;
+}
+
+#search {
+   padding: 5px;
+   font-size: 17px;
+   border: 2px solid black;
+   border-radius: 9px;
+   margin-bottom: 50px;
+}
+
+.background {
+   background: rgba(0, 0, 0, 0.7)url(BG1.avif);
+   background-size: cover;
+   background-blend-mode: darken;
+
+}
+
+.firstsection {
+   height: 100vh;
+}
+
+.box-main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   max-width: 50%;
+   margin: auto;
+   height: 75%; 
+}
+
+.firsthalf {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.secondhalf {
+   width: 30%;
+}
+
+.secondhalf img {
+   width: 70%;
+   border: 4px solid white;
+   border-radius: 150px;
+   display: flex;
+   margin: auto;
+}
+
+.text-big {
+   font-size: 39px;
+}
+
+.text-small {
+   font-size: 18px;
+   margin: 10px;
+}
+
+.btn {
+   padding: 8px 20px;
+   margin: 7px 3px;
+   border: 2px solid white;
+   border-radius: 8px;
+   background: none;
+   color: white;
+   cursor: pointer;
+
+}
+
+.btn:hover {
+   color: grey;
+}
+
+
+.btn-sm {
+   padding: 6px 9px;
+   vertical-align: middle;
+}
+
+.btn-dark {
+   color: black;
+   border: 2px solid grey;
+   font-size: 17px;
+   padding: 5px 20px;
+   border-radius: 6px;
+   margin-top: 24px;
+   cursor: pointer;
+}
+
+.section {
+   /* height: 500px; */
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   max-width: 80%;
+   margin: auto;
+   padding: 10px;
+}
+
+.paras {
+   padding: 0px 20px;
+}
+
+.sec-left {
+   flex-direction: row-reverse;
+}
+
+.thumbnail img {
+
+   width: 296px;
+   margin-top: 50px;
+   border: 2px solid black;
+   border-radius: 20px;
+
+}
+
+
+.contact {
+   background-color: whitesmoke;
+   height: 700px;
+}
+
+.textcenter {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: xx-large;
+   font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.form {
+   max-width: 62%;
+   margin: 25px auto;
+}
+
+.form-input {
+   margin: 10px 0px;
+   width: 100%;
+   text-align: center;
+   border: 2px solid grey;
+   border-radius: 9px;
+   font-size: 19px;
+   padding: 13px;
+}
+
+.textfooter{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Ubuntu', sans-serif;
+   color: white;
+   padding: 10px;
+} 
+
+.burger{
+   display: none;
+   position: absolute;
+   cursor: pointer;
+   right: 5%;
+   top: 15px;
+}
+.line{
+   width: 44%;
+   background-color: white;
+   height: 6px;
+   margin: 5px 3px;
+}
